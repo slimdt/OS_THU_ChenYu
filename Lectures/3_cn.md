@@ -54,4 +54,4 @@
   - 起始地址 0， 到MAX_prog
   
   ![](../Resources/3-addressspace.png)
-  
++ 映射关系由OS决定  
