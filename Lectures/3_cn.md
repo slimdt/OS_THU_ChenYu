@@ -64,6 +64,7 @@
  
   ![](../Resources/3-logicaddressgeneration.png)
 + 物理地址生成：
+  - ![](../Resources/3-physicaladdressgeneration.png)
   - CPU 方面：
     + 运算器ALU需要在逻辑地址的内存内容，发出请求，参数为逻辑地址
     + 内存管理单元寻找在逻辑地址和物理地址之间的映射，MMU中没有就去内存中去找（图中蓝色部分，cpu蓝色部分为映射缓存，存储了LA->PA的映射关系）
@@ -72,9 +73,7 @@
     + 内存发送物理地址内存的内容给cpu
   - OS方面
     + 建立逻辑地址和物理地址的映射
-    + 对地址空间的
-    
+    + 对地址空间访问的限制和约束，保证访问的合法：设置逻辑地址空间的基址和界限(也存在一个表中)
+       - ![](../Resources/3-baseboundary.png)
 
-![](../Resources/3-physicaladdressgeneration.png)
 
-+ 
