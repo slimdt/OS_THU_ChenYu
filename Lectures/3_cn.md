@@ -74,6 +74,6 @@
   - OS方面
     + 建立逻辑地址和物理地址的映射
     + 对地址空间访问的限制和约束，保证访问的合法：设置逻辑地址空间的基址和界限(也存在一个表中)
-       - ![](../Resources/3-baseboundary.png)
+       - ![](../Resources/3-baseboudary.png)
 
 
