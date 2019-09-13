@@ -282,15 +282,22 @@ Thread：进程当中的一条执行流程
 
 线程的缺点
 + 一个线程崩溃，会导致其所属进程的所有线程崩溃
-
+![](../Resources/7-threaddisadvantage.png)
 
 ### 不同OS
 + 单进程，单线程： MS-DOS
 + 多进程，单线程： unix（早期）
 + 多进程，多线程： Window， linux
 
+### 线程所需的资源
+
+![](../Resources/7-singlemultithread.png)
 
 
+## 进程vs.线程
++ 进程是资源分配单位，线程是CPU调度单位
++ 进程拥有一个完整的资源平台，而线程只独享必不可少的资源，如寄存器和栈
++ 
 
 
 
