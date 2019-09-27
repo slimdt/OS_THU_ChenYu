@@ -191,15 +191,22 @@ if(nobread){      （1）
 ~~~~
 leave note;         (1)
                           (2)  leave note;
-if(nobread){        (3)                         
-  if(noNote){                                      
-    leave Note;                                   
-    buy bread;                
-    remove bread;             
-  }
-}
+if(nobread){        (3)  
+                          (4)  if(nobread){        
+  if(noNote){      （5）
+                         （5）
+    buy bread;                    if(noNote){
+    remove bread;                   buy bread; 
+  }                                 remove bread;
+}                                 }  
+                                }
 ~~~~
-  
+
+会发生： 不会有人买面包
+
+### 为便签增加标签（谁放置的标签）
++ 现在则可以在检查之前留便签
++ 算法如下
   
   
   
